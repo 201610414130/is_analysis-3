@@ -48,7 +48,7 @@
      :期末流程结束;
   
  #####业务流程图如下：
-![图片](https://github.com/shiweizj/is_analysis/tree/master/test1/1.png)
+![图片](1.png)
 
 #####流程说明
 这是一个期末考试的流程，该流程图依照主要业务绘制，
@@ -94,7 +94,7 @@
                stop
 
 ####业务流程图如下：
-![图片](https://github.com/shiweizj/is_analysis/tree/master/test1/2.png)
+![图片](2.png)
 
 #####流程说明
 这是一个客户维修服务流程，该流程图较上一个图进行了进一步的细化，
