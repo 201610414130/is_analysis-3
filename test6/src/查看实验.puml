@@ -1,0 +1,17 @@
+@startuml
+title 基于GitHub的实验管理平台--查看实验用例的顺序图
+actor user
+user ->users:查看实验
+alt 如果user是老师
+	users --> term:选择学期
+	term --> course:选择课程
+	course --> tests:查看实验
+	tests --> user:返回实验信息
+else 如果users是students
+     user --> users
+     users -->term:选择学期
+     term --> course:选择课程
+     course --> tests:查看实验
+     tests --> user:返回实验信息
+end
+@enduml

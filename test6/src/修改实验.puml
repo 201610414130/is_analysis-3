@@ -1,0 +1,10 @@
+@startuml
+title 基于GitHub的实验管理平台--修改实验用例的顺序图
+actor user
+   user ->users:修改实验
+    users ->teachers
+	teachers --> term:选择学期
+	term --> course:选择课程
+	course --> tests:修改实验
+    tests --> users:返回修改后实验信息
+@enduml

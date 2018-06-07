@@ -1,0 +1,11 @@
+@startuml
+title 基于GitHub的实验管理平台--修改成绩用例的顺序图
+actor user
+user ->users:查看成绩
+	users --> term:选择学期
+	term --> course:选择课程
+	course --> tests:每个实验
+	tests --> evaluates:修改评价
+    evaluates --> grades:修改成绩
+     grades --> user:返回修改后的成绩
+@enduml

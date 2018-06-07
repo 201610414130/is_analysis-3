@@ -1,0 +1,12 @@
+@startuml
+title 基于GitHub的实验管理平台--评定成绩用例的顺序图
+actor user
+   user ->users:评定成绩
+	users -> teachers
+	teachers --> term:选择学期
+	term --> course:选择课程
+	course --> tests:每个实验
+	tests --> evaluate:评定每个同学的成绩
+    evaluate --> users:返回每个同学的成绩
+
+@enduml

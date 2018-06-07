@@ -1,0 +1,27 @@
+@startuml
+left to right direction
+ skinparam packageStyle rectangle
+ :users:
+ :teachers:
+ :student:
+ rectangle  基于GitHub实验管理平台--用例图{
+ 	users -> (修改密码)
+ 	users --> (查看用户信息)
+ 	users -> (登录)
+ 	users -> (退出)
+ 	users -> (学生列表)
+ 	users -> (选课)
+ 	users --> (查看成绩)
+ 	users --> (查看课程)
+ 	users --> (查看实验)
+
+
+    teachers --> (评定成绩)
+    teachers --> (修改成绩)
+    teachers --> (添加实验)
+    teachers --> (修改实验)
+
+ }
+ users <|- teachers
+  users <|- student
+@enduml
