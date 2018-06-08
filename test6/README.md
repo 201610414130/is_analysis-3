@@ -25,7 +25,7 @@
 * [数据库设计](数据库设计.md)
 
 ## 6. 用例和界面详细设计
-* [‘学生列表’用例](用例/学生列表.md)，[界面](https://shiweizj.github.io/is_analysis/test6/ui/nav.html/)
+* [‘学生列表’用例](用例/学生列表.md)，[界面](https://shiweizj.github.io/is_analysis/test6/ui/index.html)
 * [‘选课’用例](用例/选课列表.md)，[界面](https://shiweizj.github.io/is_analysis/test6/ui/course.html)
 * [‘查看用户信息’用例](用例/查看用户信息.md)，[界面](https://shiweizj.github.io/is_analysis/test6/ui/showmessage.html)
 * [‘查看成绩’用例](用例/查看成绩.md)，[界面](https://shiweizj.github.io/is_analysis/test6/ui/showscore.html)
